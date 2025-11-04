@@ -1,10 +1,8 @@
 from flask import Flask, jsonify, render_template
 
 app = Flask(__name__)
-filminhos = { '1': {'id': '1', 'titulo': 'Gladiador', 'diretor': 'Ridley Scott', 'genero': 'Ação / Drama / Épico', 
-                 'poster': '/static/posteres/gladiator-2.jpg', 'ano': 2000 }, 
-            '2': { 'id': '2', 'titulo': 'O Poderoso Chefão', 'diretor': 'Francis Ford Coppola', 'genero': 'Crime / Drama',
-                 'poster': '/static/posteres/godfather-10.jpg', 'ano': 1972 },
+filminhos = { '1': {'id': '1', 'titulo': 'One piece'}, 
+            '2': { 'id': '2', 'titulo': 'Motoqueiro Fantasma '},
             '3': { 'id': '3', 'titulo': 'Scarface', 'diretor': 'Brian De Palma', 'genero': 'Crime / Drama',
                  'poster': '/static/posteres/scarface-2.jpg', 'ano': 1983 }, 
             '4': { 'id': '4', 'titulo': 'Os Bons Companheiros', 'diretor': 'Martin Scorsese', 'genero': 'Crime / Biografia / Drama',
